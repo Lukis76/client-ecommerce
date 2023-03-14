@@ -1,0 +1,78 @@
+.section {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff159;
+}
+
+.section > div {
+  width: 100%;
+  max-width: 100rem;
+  padding: 0.5rem 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form {
+  width: 100%;
+  max-width: 30rem;
+  height: 2.5rem;
+  /* width: min-content; */
+  /* background: blue; */
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.form > input {
+  display: flex;
+  width: 100%;
+  color: #343434;
+  /* position: relative; */
+  height: 2.5rem;
+  padding-right: 2.5rem;
+  border-radius: 2px;
+  outline: none;
+  border: 1px solid transparent;
+  box-shadow: 0 1px 2px 0 #00000022;
+}
+
+.form > input:focus  {
+  border-color: #3483fa;
+}
+
+.form > button {  
+  background: transparent;
+  height: 2.5rem;
+  width: 2.5rem;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.form > button:hover {
+  border-color: transparent;
+}
+
+.form > button::before {
+  content: "";
+  display: block;
+  height: 28px;
+  width: 1px;
+  border-left: 1px solid #24242420;
+  position: absolute;
+}
+
+
+.section img {
+  max-height: 2.5rem;
+  width: 100%;
+  max-width: 25rem;
+}
