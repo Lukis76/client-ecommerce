@@ -5,7 +5,7 @@ export const Bottom = () => {
   return (
      <section className={`${css.section}`}>
         <div>
-          <h2>Digital Ocean</h2>
+          <h2>Mercado Free</h2>
           <form className={`${css.form}`}>
             <input type="text" />
             <button>
