@@ -1,0 +1,53 @@
+.boxHome {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.boxHome > section {
+  background: purple;
+  width: 100%;
+  max-width: 80rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
