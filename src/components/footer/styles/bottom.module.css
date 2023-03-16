@@ -1,0 +1,19 @@
+.bottom {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #64646480;
+}
+
+.bottom > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom > ul img {
+  transform: scale(0.8);
+}
