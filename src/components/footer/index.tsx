@@ -1,5 +1,17 @@
-import React from "react";
-
+import {Bottom} from "./bottom";
+import Middle from "./middle";
+import Top from "./top";
+import css from './styles/index.module.css'
+///////////////////////////////////////////
 export const Footer = () => {
-  return <div>Footer</div>;
+  return (
+    <section className={`${css.footer}`}>
+      <div>
+
+      <Top />
+      <Middle />
+      <Bottom />
+      </div>
+    </section>
+  );
 };
