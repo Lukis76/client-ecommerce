@@ -34,7 +34,7 @@ export const Categorys = () => {
     },
   ];
 
-  const desplegableCategory =  [
+  const desplegableCategory = [
     {
       url: "categorys",
       name: "Categorías",
@@ -65,7 +65,6 @@ export const Categorys = () => {
     },
   ];
 
-
   return (
     <ul className={`${css.category}`}>
       {sectionCategoriesFooter.map(({ url, name }) => (
@@ -76,11 +75,13 @@ export const Categorys = () => {
         </li>
       ))}
 
-        <ul className={`${css.desplegable}`}>
-          {
-            desplegableCategory.map(({url, name}) => <li> <Link to={`${import.meta.env.BASE_URL}/${url}`}>{name}</Link> </li>)
-          }
-        </ul>
+      <ul className={`${css.desplegable}`}>
+        {desplegableCategory.map(({ url, name }) => (
+          <li key={name}>
+            <Link to={`${import.meta.env.BASE_URL}/${url}`}>{name}</Link>
+          </li>
+        ))}
+      </ul>
     </ul>
   );
 };
